@@ -206,26 +206,6 @@ Las pruebas realizadas en el entorno de desarrollo incluyen:
 -   Visualización de los niveles C1 y C4.
 -   Restricción de opciones de la interfaz según el usuario.
 
-**Pendiente de validación:** las pruebas físicas de integración con el
-hardware y la comprobación completa del comportamiento de acceso de los
-niveles C1 y C4 deben realizarse con los componentes y el firmware del
-dispositivo. No se consideran verificadas por las pruebas de interfaz
-descritas anteriormente.
-
-## Consideraciones importantes
-
--   No modificar las reglas de Firebase sin revisar previamente el
-    diseño de seguridad y los permisos requeridos.
--   Mantener privadas las credenciales y los datos sensibles de
-    configuración.
--   No publicar claves privadas, archivos `.env` ni credenciales de
-    servicios.
--   La restricción de funciones en React es una medida de interfaz; la
-    autorización real de operaciones debe garantizarse también en
-    Firebase o en el backend correspondiente.
--   La aplicación web y el firmware del dispositivo son componentes
-    relacionados, pero sus pruebas deben documentarse por separado.
-
 ## Equipo de desarrollo
 - Jhoan Daniel Martinez
 - Rocio Guadalupe Martinez
